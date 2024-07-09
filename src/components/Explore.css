@@ -1,0 +1,54 @@
+.explore{
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+
+.explore-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px 40px 10px 10px; 
+    width: 20%;
+    margin-right: 800px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-image: url('../logo/search-interface-symbol.png');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px; 
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    justify-content: left;
+    gap: 10px;
+  }
+  
+  .category-buttons button {
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
