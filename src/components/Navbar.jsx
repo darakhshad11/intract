@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import logo from '../logo/intract_text.svg';
+import Popup from './Popup'; 
 
 const Navbar = () => {
     const [isCompassHovered, setIsCompassHovered] = useState(false);
@@ -18,11 +19,7 @@ const Navbar = () => {
                     onMouseLeave={() => setIsCompassHovered(false)}
                 >
                     <Link to="/compass">Compass</Link>
-                    {isCompassHovered && (
-                        <div className="popup">
-                            <div>All Ecosystems</div>
-                        </div>
-                    )}
+                    <Popup isOpen={isCompassHovered} />
                 </li>
                 <li className="nav-item"><Link to="/explore">Explore</Link></li>
                 <li className="nav-item"><Link to="/">Academy</Link></li>
