@@ -1,0 +1,32 @@
+.main-content {
+    background-image: url('../logo/intract-academy-background-5547a705.png'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+  
+}
+
+.academy-gif {
+    width: 150px; 
+    mix-blend-mode: screen;
+    transition: top 0.5s ease;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+
+.intro-text {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1em;
+    z-index: 1; 
+}
