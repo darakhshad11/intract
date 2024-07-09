@@ -1,0 +1,36 @@
+/* Import the Outfit font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2em;
+}
+
+.cart-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.cart-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.cart-image img {
+  width: 100%;
+  max-width: 1200px;
+}
+.button{
+    display: flex;
+   justify-content: center;
+  
+}

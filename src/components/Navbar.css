@@ -1,0 +1,80 @@
+/* Import the Outfit font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    background-color: #333;
+    padding: 1em;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    margin-right: 2em; /* Add some space between the logo and the nav items */
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+.academy-gif{
+    mix-blend-mode: screen;
+    width: 235px;
+    transition: top .5s ease;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
+
+.main-content {
+    background-image: url('../logo/intract-academy-background-5547a705.png'); /* Path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set height to full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+  
+}
+
+.academy-gif {
+    width: 150px; /* Decrease the size of the GIF */
+    mix-blend-mode: screen;
+    transition: top 0.5s ease;
+    display: flex;
+    justify-content: center; /* Center the GIF horizontally */
+    align-items: center; /* Center the GIF vertically */
+}
+
+
+
+
+.intro-text {
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 1em;
+    z-index: 1; /* Ensure text stays above the background */
+}
